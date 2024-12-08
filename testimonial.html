@@ -31,6 +31,37 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+
+    <style>
+        /* Floating Button Styles */
+        .whatsapp-float {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #25D366;
+            color: white;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+            transition: transform 0.3s, box-shadow 0.3s;
+            z-index: 1000;
+        }
+
+        .whatsapp-float:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+        }
+
+        .whatsapp-float img {
+            width: 30px;
+            height: 30px;
+        }
+    </style>
 </head>
 
 <body>
@@ -140,6 +171,11 @@
             </div> </div></div></body>
 
             <!-- Testimonial End -->
+
+            <a href="https://wa.me/923007540134" target="_blank" class="whatsapp-float">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+            </a>
+        
             <!-- Testimonial End -->
 
              <!-- Footer Start -->
@@ -152,7 +188,7 @@
                                 Chishtian, Bahawalnagar, Punjab, Pakistan
                             </p>
                             <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>0300 7540134</p>
-                            <p class="mb-2"><i class="fa fa-envelope me-3"></i>haseemfoundation@gmail.comom </p>
+                            <p class="mb-2"><i class="fa fa-envelope me-3"></i>haseemfoundation@gmail.com</p>
                             <div class="d-flex pt-2">
                                 <a class="btn btn-outline-light btn-social" href=""><i
                                         class="fab fa-twitter"></i></a>
